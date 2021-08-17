@@ -1,0 +1,12 @@
+PYTHON=python3
+
+.PHONY=train load_data playground
+
+load_data:
+	${PYTHON} ./src/models/load_data.py
+
+playground:
+	${PYHTON} ./src/models/playground.py
+
+
+
