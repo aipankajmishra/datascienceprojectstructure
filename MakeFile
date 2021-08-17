@@ -5,6 +5,9 @@ PYTHON=python3
 load_data:
 	${PYTHON} ./src/models/load_data.py
 
+train:
+	${PYTHON} ./src/models/train.py
+
 playground:
 	${PYHTON} ./src/models/playground.py
 
